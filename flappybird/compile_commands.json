@@ -1,0 +1,15 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-Iinclude",
+      "-o",
+      "main",
+      "src/main.cpp"
+    ],
+    "directory": "/home/tako/dev/projects/20-game-challenge/flappybird",
+    "file": "/home/tako/dev/projects/20-game-challenge/flappybird/src/main.cpp",
+    "output": "/home/tako/dev/projects/20-game-challenge/flappybird/main"
+  }
+]
