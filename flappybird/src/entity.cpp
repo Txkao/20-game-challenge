@@ -16,7 +16,7 @@ void apply_velocity_y(Entity *entity, float dt) {
 void apply_velocity_x(Entity *entity, float dt, int move_speed) {
   entity->rect.x += move_speed * dt; 
 }
-void jump(Entity *entity) { entity->vel.y = -150; }
+void jump(Entity *entity) { entity->vel.y = -180; }
 void update(Entity *entity, float dt) {
   apply_gravity(entity, dt);
   if (IsKeyPressed(KEY_SPACE))
